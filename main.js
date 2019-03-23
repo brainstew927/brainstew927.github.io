@@ -37,3 +37,10 @@ function try_log(user, pass) {
 function sec_hand(user) {
     console.log("sosss:" + user);
 }
+
+function red(link) {
+   
+    console.log("redirecting to:" + link);
+
+    window.open(link);
+}
