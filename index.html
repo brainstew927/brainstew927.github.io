@@ -23,11 +23,25 @@
         </font>
 
         <h2>
-            inserisci password:
-            <input id="Password1" type="password" />
-            <input id="Button1" type="button" value="send!" onclick="butt_click(Password1.value)" />
+            login
+            <br />
+            <br />
+            
+            email:     <input id="Text1" type="text" size="26"/>
+            
+
+            <br>
+            <br />
+            password:  <input id="Password1" type="password" />
+            <br />
+            <br />
+            <input id="Button1" type="button" value="send!" onclick="butt_click(Password1.value, Text1.value)" />
         </h2>
-        
+
+        <h3>
+            <textarea id="err" rows="1" cols="20" hidden ></textarea>
+        </h3>
+
     </center>
 </body>
 
